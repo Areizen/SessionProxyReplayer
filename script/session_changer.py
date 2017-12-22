@@ -3,4 +3,5 @@ import sys
 
 @concurrent
 def request(flow):
-	flow.request.cookies[sys.argv[1]]=[sys.argv[2]]
+	if sys.argv[1] in flow.request.cookies:
+		flow.request.cookies[sys.argv[1]]=[sys.argv[2]]
