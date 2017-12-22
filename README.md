@@ -29,3 +29,8 @@ Then you can analyze it using Mitmweb
 ```bash
   mitmweb -r <file>
 ```
+
+Or by using Mitmproxy
+```bash
+  mitmproxy -r <file>
+```
