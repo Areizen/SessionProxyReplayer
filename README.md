@@ -27,5 +27,5 @@ Replay it using another cookie :
 Then you can analyze it using Mitmweb
 
 ```bash
-  mitmweb
+  mitmweb -r <file>
 ```

@@ -3,5 +3,8 @@ import sys
 
 @concurrent
 def request(flow):
-	if sys.argv[1] in flow.request.cookies:
-		flow.request.cookies[sys.argv[1]]=[sys.argv[2]]
+	replace = ""
+	if len(sys.argv) == 3 :
+		replace = sys.argv[2]
+	if sys.argv[1] in flow.request.cookies.keys():
+		flow.request.cookies[sys.argv[1]] = replace
