@@ -24,13 +24,13 @@ Replay it using another cookie :
 ./replay.sh <infile> <outfile> <cookie-name> <new-value>
 ```
 
-Then you can analyze it using Mitmweb
+Then you can analyze it using Mitmweb for web interface
 
 ```bash
   mitmweb -r <file>
 ```
 
-Or by using Mitmproxy
+Or by using Mitmproxy for a console interface
 ```bash
   mitmproxy -r <file>
 ```
