@@ -1,2 +1,2 @@
 #!\bin\bash
-mitmdump -ns $1 -r "./$2" -w $3
+mitmdump -ns "./script/session_changer.py $3 $4" -r $3 -w $4
