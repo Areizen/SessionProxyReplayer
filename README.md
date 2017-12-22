@@ -12,7 +12,7 @@ You only need to have latest version of [Mitmproxy](http://mitmproxy.org) ( *ins
 ## Usage
 
 First logging your navigation 
-**Do not forget to add mitmproxy certificat to your browser(~/.mitmproxy/mitmproxy-ca-cert.cer)**:
+**Do not forget to add mitmproxy certificat to your browser (~/.mitmproxy/mitmproxy-ca-cert.cer)**:
 
 ```bash
 ./log_proxy.sh <outfile>
