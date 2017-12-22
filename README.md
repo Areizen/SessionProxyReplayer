@@ -2,8 +2,8 @@
 
 ## Goal
 
-This project aim to permit role cloisoning breach finding by saving first all the request you make with mitmproxy
-and replay it automatically with changed cookie.
+This project aim to permit finding user permissions problem, saving first all the request you make with mitmproxy
+and replaying it automatically with changed cookie.
 
 ## Installation
 
