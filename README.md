@@ -7,7 +7,7 @@ and replay it automatically with changed cookie.
 
 ## Installation
 
-You only need to have latest version of [Mitmproxy](http://mitmproxy.org) ( *installed version in Kali Linux need to be reinstalled*
+You only need to have latest version of [Mitmproxy](http://mitmproxy.org) ( *installed version in Kali Linux need to be reinstalled* )
 
 ## Usage
 
